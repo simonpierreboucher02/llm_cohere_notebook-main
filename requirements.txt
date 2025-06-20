@@ -1,0 +1,27 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+
+# Cohere API
+cohere  # Official Cohere Python client
+
+# For retrieval-augmented generation and similarity search
+faiss-cpu  # or faiss-gpu if using GPU support
+scikit-learn  # for vector operations and cosine similarity
+transformers  # if using Hugging Face transformers
+
+# Additional utilities
+tqdm  # for progress bars
+requests  # for API requests, if applicable
+
+# Optional: Environment management
+python-dotenv  # for managing environment variables, e.g., API keys
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_cohere_notebook.git#egg=llm_cohere_notebook
